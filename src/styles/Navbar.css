@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    top: 0;
+    width: 100%;
+    color: #232323;
+    background-color: #C2C2C2;
+    
+    border-style: none none solid none;
+    border-bottom-width: 2px;
+    border-bottom-color:#232323;
+}
+
+.nav-pages .site-title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 1em;
+    padding-right: 4em;
+    color: #232323;
+}
+
+.nav-pages .nav-item {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1em;
+    color: #232323;
+    padding: 2em;
+}
+
+.nav-socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-socials img {
+    padding-left: 4em;
+}
+
+a {
+    text-decoration: none;
+}
+
