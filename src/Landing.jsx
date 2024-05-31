@@ -1,19 +1,29 @@
 import React from 'react';
+import Clock from './components/Clock.jsx'
 import starIcon from './assets/star.svg';
 import './styles/Landing.css';
 
 function Landing() {
+  const city = 'Toronto, ON';
+  const status = 'Open to work';
+  const positions = [
+    'ui/ux designer @ civiconnect',
+    '4th year student @ wilfrid laurier university',
+    'president @ laurier computing society',
+    'vice president, design @ hawkhacks'
+  ];
+
   return (
     <>
       <div className='header'>
         <div className='location'>
-            <p>Based in Toronto, ON &rarr;</p>
-            <p className='bold'>6:14:44 PM EDT</p>
+            <p>Based in {city} &rarr;</p>
+            <Clock />
         </div>
         <div className='status'>
             <img src={starIcon} alt='Star Icon' />
             <p>Status &rarr;</p>
-            <p className='bold'>open to work</p>
+            <p className='bold'>{status}</p>
         </div>
       </div>
       <hr className='divider' />
@@ -22,10 +32,11 @@ function Landing() {
         <div className='info'>
           <p>Currently &rarr;</p>
           <div className='current'>
-            <p>ui/ux designer @ civiconnect,</p>
-            <p>4th year student @ wilfrid laurier university,</p>
-            <p>president @ laurier computing society,</p>
-            <p>vice president, design @ hawkhacks</p>
+            {positions.map((position, index) => (
+              <p key={index}>
+                {position}{index < positions.length - 1 ? ',' : ''}
+              </p>
+            ))}
           </div>
         </div>
         <div className='info'>
