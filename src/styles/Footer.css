@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding-bottom: 2.5em;
+}
+
+.footer p, .signature {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.copyright {
+    padding: 1em 0em;
+}
+

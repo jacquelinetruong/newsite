@@ -40,13 +40,15 @@
 .read-the-docs {
   color: #888;
 } */
+.spacer {
+  padding: 2.5em;
+}
 
 .header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding-top: 5em;
 }
 
 .location, .status {

@@ -1,0 +1,42 @@
+.learn-more {
+    background-color: #232323;
+    color: #C2C2C2;
+    padding: 5em 0em;
+}
+
+.learn-content {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.learn-more h1, .learn-more p {
+    text-transform: uppercase;
+}
+
+.learn-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.learn-more a {
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    padding: 1em 2em;
+    font-weight: bold;
+    width: fit-content;
+
+    text-decoration: none;
+    color: #C2C2C2;
+}
+
+.arrow {
+    width: 2em;
+    padding: 3em;
+}
+
+.spike {
+    padding: 2em 5em;
+}
+

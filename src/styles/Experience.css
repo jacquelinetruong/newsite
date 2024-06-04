@@ -1,0 +1,13 @@
+
+
+.glimmer-decor{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 2em;
+    padding: 4em;
+}
+
+#experience {
+    text-align: center;
+}

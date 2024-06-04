@@ -1,0 +1,52 @@
+.experience-card {
+    padding: 2em;
+    margin: auto;
+    width: 90%;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.experience-title, .experience-date {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.position {
+    font-family: 'Dela Gothic One', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.experience-content {
+    display: flex;
+    justify-items: center;
+    gap: 2em;
+    padding: 1em 0em;
+}
+
+.experience-content img {
+    width: 100px;
+}
+
+.experience-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tag {
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    padding: 1em 2em;
+    font-weight: bold;
+    width: fit-content;
+}
+
+
+

@@ -18,8 +18,16 @@
 .nav-pages .site-title {
     font-family: 'Dela Gothic One', sans-serif;
     font-size: 1em;
-    padding-right: 4em;
     color: #232323;
+
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    padding: 1em 2em;
+    font-weight: bold;
+    width: fit-content;
+
+    text-decoration: none;
 }
 
 .nav-pages .nav-item {
@@ -41,5 +49,16 @@
 
 a {
     text-decoration: none;
+}
+
+.learn-more a {
+    border-style: solid;
+    border-radius: 30px;
+    padding: 1em 2em;
+    font-weight: bold;
+    width: fit-content;
+
+    text-decoration: none;
+    color: #C2C2C2;
 }
 

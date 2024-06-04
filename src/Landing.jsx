@@ -15,6 +15,7 @@ function Landing() {
 
   return (
     <>
+      <div className='spacer' />
       <div className='header'>
         <div className='location'>
             <p>Based in {city} &rarr;</p>
