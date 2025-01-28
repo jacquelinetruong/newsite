@@ -1,3 +1,7 @@
+.projects-section {
+    padding: 0em 6em 0em 6em;
+}
+
 .title-card {
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +38,7 @@
     width: 100%;
 }
 
-.projects-section {
+.projects-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     gap: 30px;

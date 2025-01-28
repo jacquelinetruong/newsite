@@ -10,7 +10,7 @@ function Footer() {
                     <p>design & development</p>
                     <p>handcrafted by jacqueline truong</p>
                     <div className="copyright">
-                        <p>all rights reserved &copy; 2024</p>
+                        <p>all rights reserved &copy; 2025</p>
                     </div>
                 </div>
             </div>

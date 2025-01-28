@@ -40,6 +40,10 @@
 .read-the-docs {
   color: #888;
 } */
+.hero {
+  padding: 0em 6em 0em 6em;
+}
+
 .spacer {
   padding: 2.5em;
 }

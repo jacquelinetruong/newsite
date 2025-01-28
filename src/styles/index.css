@@ -79,10 +79,12 @@ ul {
   font-family: 'Hanken Grotesk', sans-serif;
   color: #232323;
   background-color: #C2C2C2;
+  width: 100%;
   font-size: 1em;
 }
 
 body {
-  padding-left: 6em;
-  padding-right: 6em;
-}
+  /* padding-left: 6em;
+  padding-right: 6em; */
+  margin: 0;
+} 
